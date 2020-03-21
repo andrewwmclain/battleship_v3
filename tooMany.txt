@@ -1,0 +1,13 @@
+6
+Submarine
+3 0 2 2
+Battleship
+4 1 4 4
+Destroyer
+3 0 3 5
+PatrolBoat
+2 1 0 4
+Carrier
+5 1 4 7
+Canoe
+1 1 7 7

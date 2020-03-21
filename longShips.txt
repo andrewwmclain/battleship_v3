@@ -1,0 +1,11 @@
+5
+HollandAmmerica
+10 1 0 0
+Princess
+10 1 0 1
+Carnival
+10 1 0 2
+Norwegian
+10 1 0 3
+RoyalCaribbean
+10 1 0 4
