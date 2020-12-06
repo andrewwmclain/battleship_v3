@@ -12,21 +12,21 @@ After configuration has been completed, the game board will be displayed.  The u
 
 The three views of the game board that follow illustrate how ships are displayed when they have not been hit, are partially hit, or completely sunk.  The manner that ships on the user grid are displayed varies from how they are displayed on the CPU grid.
 
-![ShipDisplayA](/images/image2a.png)
+![ShipDisplayA](/image2a.png)
  
 This first screen shot shows the initial display.  The user’s ships are displayed on the grid using different colors, and the squares are identified by the first letter of the ship’s name.  The CPU’s ships are not shown.
 
-![ShipDisplayB](/images/image2b.png)
+![ShipDisplayB](/image2b.png)
 
 The second screen shot shows what the game board looks like after a number of volleys have been fired.  The squares of the user’s destroyer that have been hit are now shown in red with white lettering.  The user has been able to hit one square of the CPU’s ship.  It shows as simply a red square without the letter giving a clue to how long it is.
 
-![ShipDisplayC](/images/image2c.png)
+![ShipDisplayC](/image2c.png)
 
 In this third screen shot, the CPU ship has now been sunk.  It continues to be displayed in red, but now the identifying letters are  shown.  
 
 If play continues, eventually either the user or CPU will win – the user won the game displayed below.
 
-![GameOver](/images/image3.png)
+![GameOver](/image3.png)
 
 This game board will remain displayed until the user enters a character. 
 
@@ -95,15 +95,15 @@ All you have to do is call the _LoadShips_ method on the _ _grid_ object.
 
 In order to call the _RandomlyPlaceShips_ method, you need to pass an array of ships and its size.  To be consistent with the real Battleship game, here are the ships that you should use:
 
-![ListOfShips](/images/image4.png)
+![ListOfShips](/image4.png)
 
 Here is how you can declare and initialize an array for this:
 
-![ArrayOfShips](/images/image5.png)
+![ArrayOfShips](/image5.png)
 
 And, here is an expression you can use to count the array elements without insert a “magic number” in your code.
 
-![NumberOfShips](/images/image6.png)
+![NumberOfShips](/image6.png)
 
 ## Step 3 – Start the implementation of the main program
 
@@ -121,7 +121,7 @@ Tips:
 
 When you’ve got this done, you should be able to compile your Battleship program, configure the ship configuration of both the user and CPU grids either from a file or by random placement, and then see what is shown in the screen shot.
 
-![NoLinesInitialDisplay](/images/image7.png)
+![NoLinesInitialDisplay](/image7.png)
 
 If your window size is too small, CTRL-C, resize, and rerun.
 
@@ -140,7 +140,7 @@ Why is the second line necessary?  The _ncurses_ library caches update you make 
 
 Now when you recompile and run, the initial display you see is shown in this screen shot.
 
-![NoShipsInitialDisplay](/images/image8.png)
+![NoShipsInitialDisplay](/image8.png)
 
 ## Step 5 – Initial display of the ships
 
@@ -164,7 +164,7 @@ The details of how to do this are left to you – refer to the screen shots at t
 
 Once you write this code, and recompile, your initial display should resemble what you see in the screen shot.  
 
-![ShipsInitialDisplay](/images/image9.png)
+![ShipsInitialDisplay](/image9.png)
 
 ## Step 6 – Finishing the implementation of _GridWindow::FireShot_
 
