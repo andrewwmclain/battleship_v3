@@ -6,7 +6,7 @@ Complete the Battleship game.  You will write code to display the game board usi
 
 Your program will start out in command line mode, prompting the user for a random seed and asking the user how to place the ships on the user and CPU grids.  In the run below, the user’s ship configuration was read from a file, while the CPU’s ship configuration was determined randomly.
 
-![initialConfiguration.txt](/images/image1.png)
+![initialConfiguration.txt](/image1.png)
 
 After configuration has been completed, the game board will be displayed.  The user will manually fire shots, alternating with the CPU algorithmically firing shots.  
 
