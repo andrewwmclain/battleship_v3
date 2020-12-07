@@ -1,3 +1,4 @@
+(update)
 # LAB 6 - Battleship Game, Part 3 - Completing the Game
 ## Goal
 Complete the Battleship game.  You will write code to display the game board using a C++ class library built on top of the  _ncurses_ character graphics library, as well as write logic that contols the game. 
